@@ -170,7 +170,7 @@ let msgs = generateWAMessageFromContent(id, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363222395675670@newsletter',
+                  newsletterJid: '120363236795889672@newsletter',
                   newsletterName: ownername,
                   serverMessageId: 143
                 }
@@ -216,7 +216,7 @@ let msgs = generateWAMessageFromContent(id, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"Goodbye 👋\",\"id\":\"\"}`
+              "buttonParamsJson": `{\"display_text\":\"باي 👋\",\"id\":\"\"}`
             }],
           }),
           contextInfo: {
